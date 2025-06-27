@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Ping website
         run: |
-          curl -s -o /dev/null -w "%{http_code}" https://nougat-eight.vercel.app/
+          curl -s -o /dev/null -w "%{http_code}" https://nougat-f609.onrender.com/api/articles
